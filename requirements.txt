@@ -1,0 +1,11 @@
+torch>=2.0
+numpy
+tiktoken
+huggingface_hub
+datasets      # data_karpathy/*/prepare.py
+matplotlib    # train.py loss plot, plots.py
+tqdm          # data_karpathy/openwebtext/prepare.py
+requests      # data_karpathy/shakespeare*/prepare.py
+# optional
+wandb         # --wandb_log=True
+transformers  # model_karpathy.py GPT.from_pretrained only

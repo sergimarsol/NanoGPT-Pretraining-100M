@@ -1,0 +1,51 @@
+# Secrets & credentials — never commit
+.env
+.env.*
+*.pem
+*.key
+api-key.txt
+api_key.txt
+*token*.txt
+credentials*.json
+secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+venv/
+.venv/
+env/
+.conda/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Large artifacts: model weights, caches, raw data
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.dill
+*.faiss
+*.index
+wandb/
+mlruns/
+
+# Training outputs & tokenized data (regenerate with prepare.py)
+out/
+out-*/
+data/**/*.bin
+val.bin
+loss_final.png
