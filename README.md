@@ -9,7 +9,7 @@ Pretraining a GPT-style language model from scratch on FineWeb-Edu under a hard 
 
 ## Overview
 
-This was the team project for the **UCSD CSE 251B (Deep Learning, Spring 2026) NanoGPT competition**. The task was to train a language model with **at most 100M total parameters** that gets the lowest perplexity on a hidden test set. The test set comes from the same distribution as a public FineWeb-Edu-style validation split and is tokenized with GPT-2 BPE (vocab size 50,257). Everything apart from the parameter cap was open: architecture, optimizer, data and training procedure. Each submission also had to pass a fixed evaluation interface (`load_model()` returning logits) within a 5-minute inference limit.
+Built for a **UC San Diego NanoGPT pretraining competition** (Spring 2026). The task was to train a language model with **at most 100M total parameters** that gets the lowest perplexity on a hidden test set. The test set comes from the same distribution as a public FineWeb-Edu-style validation split and is tokenized with GPT-2 BPE (vocab size 50,257). Everything apart from the parameter cap was open: architecture, optimizer, data and training procedure. Each submission also had to pass a fixed evaluation interface (`load_model()` returning logits) within a 5-minute inference limit.
 
 The project covers most of an LLM pretraining workflow at small scale:
 

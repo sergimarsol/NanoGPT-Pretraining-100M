@@ -1,5 +1,5 @@
 """
-CSE 251B — nanoGPT model.py
+GPT model (nanoGPT-derived) with the competition load_model() interface
 
 - SwiGLU MLP
 - RoPE positional encoding (no learned wpe table)
